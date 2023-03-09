@@ -1,11 +1,13 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: beige;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav {
   text-align: right;
-  background-color: #5b8f62;
+  background-color: #26682e;
   height: 60px;
   padding-top: 20px;
   border-bottom: 10px solid #700c0c;
@@ -26,3 +28,25 @@ nav a {
   border-radius: 15%;
   padding: 7px;
 }
+
+#about img {
+  
+  width: 200px;
+  height: 350px;
+  border-radius: 7px;
+  float: right;
+  clear: right;
+  margin-top: 30px;
+}
+
+#about-content {
+  clear: right;
+  display: block;
+  font-weight: 500;
+}
+
+
+/* #image {
+  width: 960px
+  justify-content: center;
+} */
