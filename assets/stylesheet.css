@@ -1,6 +1,13 @@
-body {
+::selection {
+  background-color: rgb(155, 59, 59);
+  color: lightblue;
+}
+
+ body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  width: 100%;
   background-color: beige;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -13,7 +20,7 @@ nav {
   border-bottom: 10px solid #700c0c;
 }
 
-nav li {
+nav li, footer li {
   list-style: none;
   display: inline;
   padding: 0px 7px;
@@ -45,8 +52,103 @@ nav a {
   font-weight: 500;
 }
 
-
-/* #image {
-  width: 960px
+ 
+.projects{
   justify-content: center;
-} */
+}
+
+
+.main-image-card{
+  border: 5px dotted rgb(160, 160, 160);
+  background-color: rgb(19, 85, 39);
+  width: 500px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.image-header{
+  border: black;
+  text-decoration: none;
+  background-color: rgb(219, 218, 218);
+  color:  rgb(155, 59, 59);
+  border: 2px solid black;
+  border-radius: 5%; 
+}
+
+h2 .image-header{
+  padding: 5px;
+  width: 500px;
+}
+
+.top-image img{
+  width: 500px;
+  height: 450px;
+  border-radius: 7px;
+  margin-top: 30px;
+}
+
+
+.individual-card{
+  border: 5px dotted rgb(160, 160, 160);
+  background-color: rgb(19, 85, 39);
+  width: 200px;
+  height: 370px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+h3 {
+  padding: 5px;
+  width: 200px;
+}
+
+.card-image img{
+  width: 200px;
+  height: 250px;
+  border-radius: 7px;
+  margin-top: 30px;
+}
+
+
+.Contact h2{
+  text-align: center;
+}
+
+
+
+
+.contact form{
+  text-align: center;
+}
+
+
+
+ 
+
+
+footer{
+  bottom: 0;
+  width: 100%;
+  height: 15px;
+} 
+
+
+footer ul {
+  
+  text-align: center;
+  padding: 5px 100px;
+  background-color: #26682e;
+  height: 15px;
+  padding-bottom: 20px;
+  border-top: 7px solid #700c0c;
+}
+
+footer a {
+  text-decoration: none;
+  background-color: grey;
+  color: white;
+  border: 2px solid white;
+  border-radius: 15%;
+  padding: 0;
+  
+} 
+
